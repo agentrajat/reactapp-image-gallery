@@ -13,7 +13,11 @@ To configure tailwindcss for react app, visit [https://tailwindcss.com/docs/guid
 ### Setting up Pixabay account
 
 Create an account on [Pixabay](https://pixabay.com/) to generate an API key.
-Copy the API key in .env file.
+
+Create a .env file in the root directory and add following line. Replace YOUR_API_KEY with the API key from pixabay.
+```
+REACT_APP_PIXABAY_API_KEY=YOUR_API_KEY
+```
 
 ## Available Scripts
 
